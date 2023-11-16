@@ -1,7 +1,7 @@
 let btn_search = document.getElementById('btn_search');
 let results = document.getElementById('results');
 
-const url = 'http://www.omdbapi.com/?apikey=23f82659';
+const url = 'https://www.omdbapi.com/?apikey=23f82659';
 
 function sendRequest(url) {
     return fetch(url).then(response => { return response.json()} )
