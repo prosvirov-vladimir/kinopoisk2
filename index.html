@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kinopoisk</title>
+    </head>
+    <body>
+        <h1>Кинопоиск</h1>
+        <h2>Поиск</h2>
+        <form>
+            <label>Title:
+                <input id="title" type="text">
+            </label>
+            <label>Type search:
+                <select>
+                    <option id="movie" value="Movie">Movie</option>
+                    <option id="series" value="Series">Series</option>
+                    <option id="episode" value="Episode">Episode</option>
+                </select>
+            </label>
+            <input type="button" id="btn_search" value="search">
+            <div id="results"></div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
